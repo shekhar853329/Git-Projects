@@ -1,4 +1,4 @@
-﻿
+﻿@model MVC_Initial.Models.Employee
 @{
     Layout = null;
 }
@@ -11,8 +11,19 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
-        Trying GIT.
-    </div>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>@Model.Address</td>
+        </tr>
+    </table>
 </body>
 </html>
