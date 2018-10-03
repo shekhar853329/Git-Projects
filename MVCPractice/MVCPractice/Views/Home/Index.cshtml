@@ -1,0 +1,53 @@
+﻿@using MVCPractice.Models
+@model MVCPractice.Models.Employee
+    @{
+        Layout = null;
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+    <body>
+        @{
+        int a = 1;
+        Employee emp = new Employee()
+        {
+            Id = 0,
+            name = "shekhar"
+        };
+    }
+    <div>
+        @if (a == 1)
+        {
+            <h1>Condition is true.</h1>
+        }
+        @{
+            List<int> Numbers = new List<int> { 1, 2, 3, 4, 4, 5, 5, 6, 6, 7, 88, 9 };
+        }
+        @for (int i = 0; i < 10; i++)
+        {
+            <div style="border:1px solid blue;width:400px">
+                <h1>Coming from For loop.</h1>
+            </div>
+        }
+        @foreach (int i in Numbers)
+        {
+            <span style="color:seagreen;font-size:20px;border:1px solid blue">@i</span><br />
+        }
+        @{ 
+            <div>
+                Id = @emp.Id;
+                Name=@emp.name;
+            </div>
+        }
+        <div>
+            id=@Model.Id;
+            name=@Model.name;            
+        </div>
+    </div>
+</body>
+</html>
