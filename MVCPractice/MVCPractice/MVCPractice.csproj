@@ -144,6 +144,7 @@
     <Content Include="Views\HTMLHelper\Index.cshtml" />
     <Content Include="Views\BuiltInHTMLHelper\Index.cshtml" />
     <Content Include="Views\BuiltInHTMLHelper\AboutUs.cshtml" />
+    <Content Include="Views\StronglyTypeHTMLHelper\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -153,7 +154,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\StronglyTypeHTMLHelper\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
