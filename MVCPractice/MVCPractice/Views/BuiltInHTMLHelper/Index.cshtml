@@ -13,7 +13,12 @@
 <body>
     <div> 
         @Html.ActionLink("About us", "aboutus",new {name="shekhar"})
-        @Html.TextBox("TxtBox1")
+        @Html.TextBox("TxtBox1","",new { id="TXTBOXID",@class="TXTCLASS",style="width:500px"})
+        @Html.CheckBox("Checkbox",true)
+        @Html.Password("txtpassword")
+    </div>
+    <div>
+       
     </div>
 </body>
 </html>
