@@ -134,6 +134,7 @@
     </Compile>
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\StronglyTypedEmployee.cs" />
+    <Compile Include="Models\TempletedEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,7 @@
     <Content Include="Views\BuiltInHTMLHelper\AboutUs.cshtml" />
     <Content Include="Views\StronglyTypeHTMLHelper\Index.cshtml" />
     <Content Include="Views\StronglyTypeHTMLHelper\Index1.cshtml" />
+    <Content Include="Views\TempletedHTMLHelper\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -157,7 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\TempletedHTMLHelper\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,26 @@
+﻿@using MVCPractice.Models;
+@model TempletedEmployee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @Html.DisplayName("Id")
+        @Html.DisplayFor(x=>x.Id)<br />
+        <br />
+        @Html.DisplayNameFor(x => x.Id)
+        @Html.DisplayFor(x => x.Id)
+        
+        @Html.EditorFor(x=>x.DOB)        
+    </div>
+</body>
+</html>
