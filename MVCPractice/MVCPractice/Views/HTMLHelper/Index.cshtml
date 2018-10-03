@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @helper Mylisthelper(string[] str)
+        {
+        <ul>
+            @foreach (var item in str)
+            {
+                <li>@item</li>
+            }
+        </ul>
+}
+    </div>
+    <div>
+        @Mylisthelper(new string[] { "ram", "shyam", "shekhar" });
+        @Mylisthelper(new string[] { "C++","c#","java"})
+    </div>
+</body>
+</html>

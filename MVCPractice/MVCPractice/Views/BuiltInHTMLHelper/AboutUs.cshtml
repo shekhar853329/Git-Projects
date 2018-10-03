@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AboutUs</title>
+</head>
+<body>
+    <div>
+        @{ 
+            string name = Request.QueryString["name"];
+        }
+    </div>
+    <div> 
+        From aboout us page
+        <br />
+        @Html.TextBox("txt1",name)
+    </div>
+</body>
+</html>
