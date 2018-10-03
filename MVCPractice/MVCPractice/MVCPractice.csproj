@@ -128,10 +128,12 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HTMLHelperController.cs" />
     <Compile Include="Controllers\StronglyTypeHTMLHelperController.cs" />
+    <Compile Include="Controllers\TempletedHTMLHelperController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\StronglyTypedEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +147,7 @@
     <Content Include="Views\BuiltInHTMLHelper\Index.cshtml" />
     <Content Include="Views\BuiltInHTMLHelper\AboutUs.cshtml" />
     <Content Include="Views\StronglyTypeHTMLHelper\Index.cshtml" />
+    <Content Include="Views\StronglyTypeHTMLHelper\Index1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -154,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\TempletedHTMLHelper\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
