@@ -10,6 +10,7 @@ namespace CSharpApplications
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
