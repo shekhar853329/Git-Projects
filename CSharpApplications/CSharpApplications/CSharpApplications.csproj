@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpApplications.AbstractMain</StartupObject>
+    <StartupObject>CSharpApplications.Delegate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractMain.cs" />
+    <Compile Include="Delegate.cs" />
     <Compile Include="Parameter_Param.cs" />
     <Compile Include="Partial_Class.cs" />
     <Compile Include="Partial_Class1.cs" />
