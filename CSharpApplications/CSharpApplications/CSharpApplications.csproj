@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpApplications.TernaryOperator</StartupObject>
+    <StartupObject>CSharpApplications.AbstractMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractMain.cs" />
     <Compile Include="Parameter_Param.cs" />
+    <Compile Include="Partial_Class.cs" />
+    <Compile Include="Partial_Class1.cs" />
+    <Compile Include="Partial_Class2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TernaryOperator.cs" />
